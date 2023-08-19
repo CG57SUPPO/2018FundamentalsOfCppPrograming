@@ -1,0 +1,112 @@
+System: Kernel: 5.15.0-67-generic x86_64 bits: 64 compiler: gcc v: 
+  11.3.0
+    Desktop: Cinnamon 5.6.8 tk: GTK 3.24.33 wm: muffin vt: 7 dm: LightDM 
+    1.30.0 Distro: Linux Mint 21.1 Vera base: Ubuntu 22.04 jammy
+Machine: Type: Desktop System: Micro-Star product: MS-7C37 v: 1.0 
+    serial: <superuser required>
+  Mobo: Micro-Star model: MPG X570 GAMING EDGE WIFI (MS-7C37) v: 1.0 
+    serial: <superuser required> UEFI: American Megatrends LLC. v: 1.J0 
+    date: 09/01/2022
+Battery: Device-1: hidpp_battery_0 model: Logitech Wireless Mouse MX 
+  Master 2S
+    serial: <filter> charge: 55% (should be ignored) rechargeable: yes 
+    status: Discharging
+  Device-2: hidpp_battery_1 model: Logitech K780 Multi-Device Wireless 
+    Keyboard serial: <filter> charge: 100% (should be ignored) 
+    rechargeable: yes status: Discharging
+CPU: Info: 6-core model: AMD Ryzen 5 5600X bits: 64 type: MT MCP smt: 
+  enabled
+    arch: Zen 3 rev: 2 cache: L1: 384 KiB L2: 3 MiB L3: 32 MiB Speed 
+  (MHz): avg: 3235 high: 4570 min/max: 2200/4650 boost: enabled
+    cores: 1: 3111 2: 4570 3: 2842 4: 3030 5: 3213 6: 3573 7: 2894 8: 
+    3389 9: 2879 10: 2873 11: 2996 12: 3459 bogomips: 88801
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3 
+  svm
+Graphics: Device-1: NVIDIA TU116 [GeForce GTX 1660 SUPER] vendor: 
+  Micro-Star MSI
+    driver: nvidia v: 525.85.05 pcie: speed: 2.5 GT/s lanes: 16 ports: 
+    active: none off: HDMI-A-1 empty: DP-1,DP-2,DP-3 bus-ID: 2d:00.0 
+    chip-ID: 10de:21c4 class-ID: 0300
+  Device-2: Logitech HD Webcam C615 type: USB driver: 
+    snd-usb-audio,uvcvideo bus-ID: 7-3.1:3 chip-ID: 046d:082c class-ID: 
+    0e02 serial: <filter>
+  Display: x11 server: X.Org v: 1.21.1.3 driver: X: loaded: nvidia 
+    unloaded: fbdev,modesetting,nouveau,vesa gpu: nvidia display-ID: :0 
+    screens: 1
+  Screen-1: 0 s-res: 2560x1440 s-dpi: 108 s-size: 602x342mm (23.7x13.5") 
+    s-diag: 692mm (27.3")
+  Monitor-1: HDMI-0 res: 2560x1440 hz: 60 dpi: 109 size: 597x336mm 
+    (23.5x13.2") diag: 685mm (27")
+  OpenGL: renderer: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2 v: 4.6.0 
+    NVIDIA 525.85.05 direct render: Yes
+Audio: Device-1: NVIDIA TU116 High Definition Audio vendor: Micro-Star 
+  MSI
+    driver: snd_hda_intel v: kernel pcie: speed: 8 GT/s lanes: 16 
+    bus-ID: 2d:00.1 chip-ID: 10de:1aeb class-ID: 0403
+  Device-2: AMD Starship/Matisse HD Audio vendor: Micro-Star MSI driver: 
+    snd_hda_intel v: kernel pcie: speed: 16 GT/s lanes: 16 bus-ID: 
+    2f:00.4 chip-ID: 1022:1487 class-ID: 0403
+  Device-3: Logitech HD Webcam C615 type: USB driver: 
+    snd-usb-audio,uvcvideo bus-ID: 7-3.1:3 chip-ID: 046d:082c class-ID: 
+    0e02 serial: <filter>
+  Device-4: Logitech G432 Gaming Headset type: USB driver: 
+    hid-generic,snd-usb-audio,usbhid bus-ID: 7-3.4.3:5 chip-ID: 
+    046d:0a9c class-ID: 0300 serial: <filter>
+  Sound Server-1: ALSA v: k5.15.0-67-generic running: yes Sound 
+  Server-2: PulseAudio v: 15.99.1 running: yes Sound Server-3: PipeWire 
+  v: 0.3.48 running: yes
+Network: Device-1: Realtek RTL8111/8168/8411 PCI Express Gigabit 
+  Ethernet
+    vendor: Micro-Star MSI X570-A PRO driver: r8169 v: kernel pcie: 
+    speed: 2.5 GT/s lanes: 1 port: d000 bus-ID: 27:00.0 chip-ID: 
+    10ec:8168 class-ID: 0200
+  IF: enp39s0 state: up speed: 1000 Mbps duplex: full mac: <filter> 
+  Device-2: Intel Dual Band Wireless-AC 3168NGW [Stone Peak]
+    driver: iwlwifi v: kernel pcie: speed: 2.5 GT/s lanes: 1 bus-ID: 
+    29:00.0 chip-ID: 8086:24fb class-ID: 0280
+  IF: wlp41s0 state: down mac: <filter> Bluetooth: Device-1: Intel 
+  Wireless-AC 3168 Bluetooth type: USB driver: btusb v: 0.8
+    bus-ID: 1-4:3 chip-ID: 8087:0aa7 class-ID: e001 Report: hciconfig 
+  ID: hci0 rfk-id: 0 state: up address: <filter>
+    bt-v: 2.1 lmp-v: 4.2 sub-v: 1100 hci-v: 4.2 rev: 1100 Drives: Local 
+  Storage: total: 5.57 TiB used: 576.94 GiB (10.1%) ID-1: /dev/nvme0n1 
+  vendor: Crucial model: CT2000P1SSD8 size: 1.82 TiB
+    speed: 31.6 Gb/s lanes: 4 type: SSD serial: <filter> rev: P3CR021 
+    temp: 39.9 C scheme: MBR
+  ID-2: /dev/nvme1n1 vendor: Samsung model: MZVLW128HEGR-000L1 size: 
+    119.24 GiB speed: 31.6 Gb/s lanes: 4 type: SSD serial: <filter> rev: 
+    4L1QCXB7 temp: 31.9 C scheme: GPT
+  ID-3: /dev/sda vendor: Crucial model: CT1000MX500SSD1 size: 931.51 GiB 
+    speed: 6.0 Gb/s type: SSD serial: <filter> rev: 023 scheme: GPT
+  ID-4: /dev/sdb vendor: Western Digital model: WD30EZRS-11J99B1 size: 
+    2.73 TiB speed: 3.0 Gb/s type: N/A serial: <filter> rev: 0A80 
+    scheme: GPT
+Partition: ID-1: / size: 195.8 GiB used: 23.22 GiB (11.9%) fs: ext4 dev: 
+  /dev/dm-0
+    mapped: volgroup0-lv_root ID-2: /boot/efi size: 511 MiB used: 6.1 
+  MiB (1.2%) fs: vfat
+    dev: /dev/nvme0n1p1 ID-3: /home size: 1.44 TiB used: 179.03 GiB 
+  (12.1%) fs: ext4
+    dev: /dev/dm-1 mapped: volgroup0-lv_home Swap: ID-1: swap-1 type: 
+  file size: 2 GiB used: 0 KiB (0.0%) priority: -2
+    file: /swapfile Sensors: System Temperatures: cpu: N/A mobo: N/A 
+  gpu: nvidia temp: 40 C Fan Speeds (RPM): N/A gpu: nvidia fan: 0%
+Repos: Packages: 2307 apt: 2297 flatpak: 10 No active apt repos in: 
+  /etc/apt/sources.list Active apt repos in: 
+  /etc/apt/sources.list.d/official-package-repositories.list
+    1: deb https://mirrors.sonic.net/mint/packages vera main upstream 
+    import backport 2: deb http://mirrors.accretive-networks.net/ubuntu 
+    jammy main restricted universe multiverse 3: deb 
+    http://mirrors.accretive-networks.net/ubuntu jammy-updates main 
+    restricted universe multiverse 4: deb 
+    http://mirrors.accretive-networks.net/ubuntu jammy-backports main 
+    restricted universe multiverse 5: deb 
+    http://security.ubuntu.com/ubuntu/ jammy-security main restricted 
+    universe multiverse
+  Active apt repos in: /etc/apt/sources.list.d/vscode.list 1: deb 
+    [arch=amd64,arm64,armhf] http://packages.microsoft.com/repos/code 
+    stable main
+Info: Processes: 414 Uptime: 1d 6h 26m wakeups: 93 Memory: 31.27 GiB 
+  used: 6.27 GiB (20.0%) Init: systemd v: 249 runlevel: 5 Compilers: 
+  gcc: 11.3.0 alt: 11/12 Shell: Bash v: 5.1.16 running-in: terminator 
+  inxi: 3.3.13
